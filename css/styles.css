@@ -1,7 +1,21 @@
-.gallery {
-    max-width: 800px;
+.gallery {  
+    max-width: 905px;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px 200px;
     grid-gap: 30px;
+    margin: auto;
 }
+
+img {
+    padding: 10px;
+}
+
+.search-bar{
+    text-align:center;
+    padding-top: 10px;
+  }
+
+  .search-bar > input{
+    text-align:left;
+  }
