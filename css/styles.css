@@ -13,9 +13,16 @@ img {
 
 .search-bar{
     text-align:center;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
   }
 
   .search-bar > input{
     text-align:left;
+  }
+
+  input {
+    border-radius: 5px;
+    padding: 13px 15px;
+    width: 500px;
   }
